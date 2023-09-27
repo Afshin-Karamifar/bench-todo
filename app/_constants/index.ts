@@ -1,2 +1,2 @@
-export const HOME_URL = "http://localhost:3000/";
-export const SIGN_IN_API = "http://localhost:3000/api/signin";
+export const HOME_URL = process.env.NEXT_PUBLIC_HOME_URL as string;
+export const SIGN_IN_API = process.env.NEXT_PUBLIC_SIGN_IN_API as string;
