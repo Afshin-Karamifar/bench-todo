@@ -1,0 +1,10 @@
+.capgeminiLogoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  position: sticky;
+  top: calc(100dvh - 126px);
+}
